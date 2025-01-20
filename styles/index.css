@@ -93,3 +93,57 @@ body{
     border-radius: 12px;
     cursor: pointer;
 }
+
+/* Small Device and Responsiveness */
+.small-device-nav{
+    padding-bottom: 30px;
+    display: none;
+}
+.fa-bars{
+    font-size: 30px;
+}
+@media screen and (max-width:576px) {
+    .nav{
+        display: none;
+    }
+    .small-device-nav{
+        display: flex;
+        padding: 24px;
+    }
+    .header{
+        max-width: 100%;
+        padding: 20px 0px;
+    }
+    .header .nav-line{
+        height: 2px;
+        background-color: orange;
+    }
+    .brand > h1{
+        display: none;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+        padding: 20px;
+    }
+    .hero h1{
+        font-size: 35px;
+    }
+    .hero .hero-intro, .hero img{
+        max-width: 100%;
+    }
+}
+
+/* Medium Screen */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+        padding: 20px;
+    }
+    .hero .hero-intro, .hero img{
+        max-width: 100%;
+    }
+}
