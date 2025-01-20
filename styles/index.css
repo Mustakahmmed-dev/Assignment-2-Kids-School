@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.header{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 28px;
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+}
+.navbar{
+    display: flex;
+}
+.nav-link{
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.home{
+    color: rgb(254, 163, 1);
+    font-weight: 700;
+}
+.about{
+    color: skyblue;
+}
+.facilities{
+    color: rgb(5, 212, 223);
+}
+.admission{
+    color: rgb(93, 88, 239);
+}
+.btn-contact{
+    padding: 15px 30px;
+    border-radius: 12px;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
