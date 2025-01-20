@@ -58,3 +58,38 @@ body{
     font-weight: 600;
     font-size: 20px;
 }
+
+/* Hero section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.hero .hero-intro, .hero > img{
+    max-width: 45%;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero p{
+    margin: 20px 0px;
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-orange{
+    color: orange;
+}
+.text-blue{
+    color: blue;
+}
+.enroll-btn{
+    color: white;
+    background-color: rgba(0, 0, 0);
+    padding: 14px 28px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+}
