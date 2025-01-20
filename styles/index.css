@@ -108,7 +108,7 @@ body{
     }
     .small-device-nav{
         display: flex;
-        padding: 24px;
+        padding: 0px 15px 15px;
     }
     .header{
         max-width: 100%;
@@ -145,5 +145,11 @@ body{
     }
     .hero .hero-intro, .hero img{
         max-width: 100%;
+    }
+    .nav{
+        display: none;
+    }
+    .small-device-nav{
+        display: flex;
     }
 }
