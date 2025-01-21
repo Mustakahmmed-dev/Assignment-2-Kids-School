@@ -185,6 +185,16 @@ main{
     box-shadow: inset 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 30%), rgb(255, 255, 255);
 }
+.elementary-card{
+    border: 0.94px solid rgb(255, 244, 220);
+    box-shadow: inset 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.middle-card{
+    border: 0.94px solid rgb(242, 232, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
 .curriculum-card img, .curriculum-card h3, .curriculum-card p{
     margin-bottom: 20px;
 }
@@ -241,6 +251,8 @@ main{
         grid-template-columns: repeat(2, 1fr);
     }   
 }
+
+
 
         /* Our Stories */
 .our-stories-main-sec{
