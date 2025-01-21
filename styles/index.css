@@ -209,6 +209,20 @@ main{
     font-weight: 700;
 }
 
+.next-more-edu{
+    margin: 70px 0px;
+    text-align: center;
+ 
+}
+.next-more-edu i{
+    color: white;
+    background-color: orange;
+    padding: 28px;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
 /* Responsiveness */
 @media screen and (max-width:576px) {
     .curriculum-cards-container{
@@ -221,3 +235,4 @@ main{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
