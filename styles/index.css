@@ -80,6 +80,7 @@ body{
 }
 .text-orange{
     color: orange;
+    font-weight: 700;
 }
 .text-blue{
     color: blue;
@@ -152,4 +153,56 @@ body{
     .small-device-nav{
         display: flex;
     }
+}
+
+/* Main */
+main{
+    background: url("../assets/bg.png");
+}
+
+/* Curriculum sec */
+.curriculum-sec{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.curriculum-sec > h1{
+    text-align: center;
+    margin: 80px;
+}
+.curriculum-cards-container{
+    display: flex;
+    gap: 20px;
+
+}
+.curriculum-card{
+    border: 2px solid;
+    padding: 40px;
+    text-align: center;
+    border-radius: 16px;
+    border: 0.94px solid rgb(222, 245, 255);
+    box-shadow: inset 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 30%), rgb(255, 255, 255);
+}
+.curriculum-card img, .curriculum-card h3, .curriculum-card p{
+    margin-bottom: 20px;
+}
+.curriculum-card h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(32, 32, 32);
+}
+.curriculum-card p{
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    font-weight: 500;
+}
+.text-skyblue{
+    color: rgb(100, 200, 255);
+    font-size: 15px;
+    font-weight: 700;
+}
+.text-purple{
+    color: purple;
+    font-size: 15px;
+    font-weight: 700;
 }
