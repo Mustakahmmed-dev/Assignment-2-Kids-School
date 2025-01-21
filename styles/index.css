@@ -223,17 +223,23 @@ main{
     font-weight: 700;
     cursor: pointer;
 }
-/* Responsiveness */
+/* Responsiveness -Small screen */
 @media screen and (max-width:576px) {
     .curriculum-cards-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .curriculum-sec{
+        max-width: 90%;
+    }
+    .next-more-edu{
+        display: none;
+    }
 }
-        /* Small screen */
+        /* Medium screen */
 @media screen and (min-width:576px) and (max-width:992px) {
     .curriculum-cards-container{
         grid-template-columns: repeat(2, 1fr);
-    }
+    }   
 }
 
         /* Our Stories */
@@ -297,7 +303,7 @@ main{
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
-.multi-story-card{
+.multi-story-card{  
     border-radius: 16px;
     background-color: white;
 
@@ -328,6 +334,11 @@ main{
     font-weight: 700;
     font-size: 20px;
 }
+/* Hidden cards */
+#story-4, #story-5{
+    display: none;
+}
+
 /* Responsiveness */
 @media screen and (max-width:576px) {
     .our-stories-cards-container{
@@ -336,12 +347,29 @@ main{
     .story-1{
         display: none;
     }
+    .our-stories-sec{
+        max-width: 90%;
+    }
     .multi-stories-cards-container{
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
     .multi-story-card img{
         width: 100%;
+    }
+    .story-intro{
+        padding: 8px;
+    }
+    .story-intro-date{
+        top: -30px;
+        text-wrap: nowrap;
+    }
+    .story-intro-date time{
+        padding: 8px;
+        font-size: 14px;
+    }
+    #story-4, #story-5{
+        display: block;
     }
 }
 
@@ -351,5 +379,9 @@ main{
         flex-direction: column;
         gap: 30px;
     }
+    .multi-story-card img{
+        width: 100%;
+    }
 }
+
 
