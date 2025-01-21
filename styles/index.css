@@ -42,7 +42,7 @@ body{
     font-weight: 700;
 }
 .about{
-    color: skyblue;
+    color: rgb(1, 172, 253);
 }
 .facilities{
     color: rgb(5, 212, 223);
@@ -79,11 +79,11 @@ body{
     font-weight: 400;
 }
 .text-orange{
-    color: orange;
+    color: rgb(254, 163, 1);;
     font-weight: 700;
 }
 .text-blue{
-    color: blue;
+    color: rgb(1, 172, 253);
 }
 .enroll-btn{
     color: white;
@@ -220,7 +220,7 @@ main{
     font-weight: 700;
 }
 .text-purple{
-    color: purple;
+    color: rgb(135, 0, 255);
     font-size: 15px;
     font-weight: 700;
 }
@@ -312,7 +312,6 @@ main{
 .story-1{
     border-radius: 16px;
     background-color: white;
-
 }
 .story-1 img{
     border-radius: 16px 16px 0px 0px;
@@ -320,7 +319,7 @@ main{
 }
 
 .story-intro h3{
-    margin: 0px 0px 25px;
+    margin: 0px 0px 15px;
     font-size: 15px;
     font-weight: 700;
 }
@@ -423,6 +422,10 @@ main{
     }
     #story-4, #story-5{
         display: block;
+    }
+    .btn-view-all{
+        padding: 12px 34px;
+        font-size: 15px;
     }
 }
 
